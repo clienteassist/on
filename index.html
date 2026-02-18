@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Império Utilidades Domésticas</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(to right, #4b5563, #111827);
+      color: white;
+      padding: 90px 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+    }
+
+    /* TITLES */
+    .section-title {
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    /* ICONS */
+    .card-icon {
+      font-size: 45px;
+      color: #0d6efd;
+      margin-bottom: 15px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #111827;
+      color: white;
+      padding: 20px 0;
+    }
+
+    /* WHATSAPP BUTTON */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px 18px;
+      font-size: 28px;
+      z-index: 999;
+      text-decoration: none;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    }
+
+    .whatsapp-btn:hover {
+      background: #1ebd5a;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1>Império Utilidades Domésticas</h1>
+      <p class="lead mt-3">
+        Artigos de cama, mesa e banho com qualidade e conforto para o seu lar.
+      </p>
+      <a href="#contato" class="btn btn-primary btn-lg mt-3">
+        Entre em Contato
+      </a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="py-5">
+    <div class="container text-center">
+      <h2 class="section-title">Quem Somos</h2>
+      <p class="text-muted">
+        A <strong>Império Utilidades Domésticas LTDA</strong> atua no comércio varejista de artigos
+        de <strong>cama, mesa e banho</strong>, oferecendo produtos essenciais para deixar sua casa mais confortável.
+      </p>
+      <p>
+        Fundada em <strong>12/03/2021</strong>, estamos localizados em
+        <strong>São Bernardo do Campo - SP</strong>, atendendo com dedicação e excelência.
+      </p>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title text-center">Nossos Diferenciais</h2>
+
+      <div class="row g-4 text-center">
+
+        <div class="col-md-4">
+          <div class="card p-4 shadow-sm">
+            <i class="fa-solid fa-bed card-icon"></i>
+            <h5>Cama</h5>
+            <p class="text-muted">
+              Lençóis, cobertores e itens confortáveis para noites perfeitas.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card p-4 shadow-sm">
+            <i class="fa-solid fa-utensils card-icon"></i>
+            <h5>Mesa</h5>
+            <p class="text-muted">
+              Produtos para cozinha e mesa posta com estilo e praticidade.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card p-4 shadow-sm">
+            <i class="fa-solid fa-bath card-icon"></i>
+            <h5>Banho</h5>
+            <p class="text-muted">
+              Toalhas e acessórios de alta qualidade para o seu bem-estar.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DADOS DA EMPRESA -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center">Dados Oficiais da Empresa</h2>
+
+      <div class="table-responsive">
+        <table class="table table-bordered text-center">
+          <tr>
+            <th>Razão Social</th>
+            <td>Império Utilidades Domésticas LTDA</td>
+          </tr>
+          <tr>
+            <th>CNPJ</th>
+            <td>41.191.010/0001-39</td>
+          </tr>
+          <tr>
+            <th>Atividade Principal</th>
+            <td>Comércio varejista de artigos de cama, mesa e banho</td>
+          </tr>
+          <tr>
+            <th>CNAE</th>
+            <td>47.55-5-03</td>
+          </tr>
+          <tr>
+            <th>Localização</th>
+            <td>São Bernardo do Campo - SP</td>
+          </tr>
+          <tr>
+            <th>Situação Cadastral</th>
+            <td><span class="badge bg-success">Ativa</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="bg-light py-5">
+    <div class="container text-center">
+      <h2 class="section-title">Contato</h2>
+      <p class="text-muted">
+        Fale conosco e conheça nossos produtos e novidades!
+      </p>
+
+      <p><i class="fa-solid fa-location-dot"></i> São Bernardo do Campo - SP</p>
+      <p><i class="fa-solid fa-envelope"></i> contato@imperioutilidades.com.br</p>
+      <p><i class="fa-solid fa-phone"></i> (11) 99999-9999</p>
+
+      <a class="btn btn-primary mt-3" href="#">
+        <i class="fa-brands fa-instagram"></i> Instagram Oficial
+      </a>
+    </div>
+  </section>
+
+  <!-- WHATSAPP FIXO -->
+  <a class="whatsapp-btn" href="https://wa.me/5511999999999" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="text-center">
+    <p class="mb-0">
+      © 2026 Império Utilidades Domésticas LTDA - Todos os direitos reservados.
+    </p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
